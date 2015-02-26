@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>SAMP | Menú</title> 
+	<link rel="stylesheet" type="text/css" href="estilomenu.css">
+	<link rel ="shortcut icon" href="logosamp.png">
+</head>
+<body>
+	<header class="header2">
+		<div class="abc">
+			<div class="logo">				
+				<img src="logosamp.png" style="height: 100px;">				
+			</div>
+			<nav>
+				<a href="#">Inicio</a>
+				<a href="#">Trámites</a>
+				<a href="#">Consultas</a>
+				<a href="#">Modificaciones</a>	
+			</nav>
+		</div>
+	</header>
+	<section class="Contenido def">
+		<h1 id="titulo">Elige una opción</h1>
+		<div id="contenedorFormulario" style="display:table; width: 40%; height:90%;">
+			 <form>
+			 	<input id="modif" name="modif" type="button" class="botones" value="Modificaciones" onclick="modificaciones.html">
+			 	<input id="consul" name="consul" type="button" class="botones" value="Consultas" onclick="consultas.html">
+			 	<input id="baja" name="baja" type="button" class="botones" value="Bajas" onclick="bajas.html">
+			 	<input id="ext" name="ext" type="button" class="botones" value="Casos Extraordinarios" onclick="extra.html">		
+			 </form>
+		</div>
+	</section>
+</body>
+</html>
